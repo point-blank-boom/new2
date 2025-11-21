@@ -28,7 +28,6 @@ p {
 a {
   text-decoration: none;
   color: white;
-  font-weight: 700;
 }
 .firstcontain {
   padding: 50px;
@@ -55,15 +54,13 @@ button {
   margin-top: 10px;
   margin-bottom: 10px;
   cursor: pointer;
-}
-a:hover {
-  color: hsl(0, 0%, 12%);
-  opacity: 0.9;
+  font-weight: 700;
 }
 button:hover {
   background-color: hsl(75, 94%, 57%);
   opacity: 0.9;
 }
-button:hover a {
+a:hover button {
     color: hsl(0, 0%, 12%);
+    opacity: 0.9;
 }
